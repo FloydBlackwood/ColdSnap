@@ -33,7 +33,7 @@ threshold = 20.00
 users = tweepy.Cursor(api.followers, screen_name="floydblackwood").items()
 
 #set time increment
-time_to_sleep = 5
+time_to_sleep = 3600
 
 #create csv file to log sensor readings
 log_file = "coldsnap_log.csv"
